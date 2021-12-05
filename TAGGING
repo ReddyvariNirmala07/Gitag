@@ -1,3 +1,7 @@
 Git tags are of two types.
-1.lighted weighted tag ==> cant support comiting
-2..Annoted tag
+1.lighted weighted tag ==> cant support comiting, simple tag representation
+2..Annoted tag ==> -a is representing annoting, comments can be added
+
+git show tagname ==> to see history
+git tag ==> to display all tags in repo
+git log --pretty=oneline taga...tagb
